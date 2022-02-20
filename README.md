@@ -27,17 +27,23 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 - High Risk Precision - 
 - High Rish Recall - 
 ### Combination (Over and Under) Sampling
+
+<img width="448" alt="image" src="https://user-images.githubusercontent.com/92613639/154867252-6e68e442-d35d-480b-a94f-563238cdf182.png">
+
 - Balanced Accuracy Score - 0.93
 - Low Risk Precision - 
 - Low Risk Recall - 
 - High Risk Precision - 
 - High Rish Recall - 
 ### Balanced Random Forest Classifier
-- Balanced Accuracy Score - 0.93
-- Low Risk Precision - 
-- Low Risk Recall - 
-- High Risk Precision - 
-- High Rish Recall - 
+
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/92613639/154867196-17f1cf53-0757-4de9-83c0-947c808ce22b.png">
+
+- Balanced Accuracy Score - 0.79
+- Low Risk Precision - 1.00
+- Low Risk Recall - 0.87
+- High Risk Precision - 0.03
+- High Rish Recall - 0.70
 ### Easy Ensemble AdaBoost Classifier
 
 ![image](https://user-images.githubusercontent.com/92613639/154866899-04c5f5bd-3c29-417d-b702-2ec9d83cc7e7.png)
