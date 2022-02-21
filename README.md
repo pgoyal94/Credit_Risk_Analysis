@@ -9,32 +9,41 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ## Results: 
 
 ### Naive Random Oversampling
-- Balanced Accuracy Score - 0.93
-- Low Risk Precision - 
-- Low Risk Recall - 
-- High Risk Precision - 
-- High Rish Recall - 
+
+<img width="453" alt="image" src="https://user-images.githubusercontent.com/92613639/154870648-a5a519cb-1723-49fa-a2bf-e11ea731f074.png">
+
+- Balanced Accuracy Score - 0.64
+- Low Risk Precision - 1.00
+- Low Risk Recall - 0.59
+- High Risk Precision - 0.01
+- High Rish Recall - 0.69
 ### SMOTE Oversampling
-- Balanced Accuracy Score - 0.93
-- Low Risk Precision - 
-- Low Risk Recall - 
-- High Risk Precision - 
-- High Rish Recall - 
+
+![image](https://user-images.githubusercontent.com/92613639/154870616-d2d53b69-83cb-46d6-b676-d2353b234b39.png)
+
+- Balanced Accuracy Score - 0.66
+- Low Risk Precision - 1.00
+- Low Risk Recall - 0.69
+- High Risk Precision - 0.01
+- High Rish Recall - 0.63
 ### Undersampling
-- Balanced Accuracy Score - 0.93
-- Low Risk Precision - 
-- Low Risk Recall - 
-- High Risk Precision - 
-- High Rish Recall - 
+
+![image](https://user-images.githubusercontent.com/92613639/154870547-574fc3f8-5fa2-49e4-809f-bf1ffe4edd7c.png)
+
+- Balanced Accuracy Score - 0.54
+- Low Risk Precision - 1.00
+- Low Risk Recall - 0.69
+- High Risk Precision - 0.01
+- High Rish Recall - 0.40
 ### Combination (Over and Under) Sampling
 
 <img width="448" alt="image" src="https://user-images.githubusercontent.com/92613639/154867252-6e68e442-d35d-480b-a94f-563238cdf182.png">
 
-- Balanced Accuracy Score - 0.93
-- Low Risk Precision - 
-- Low Risk Recall - 
-- High Risk Precision - 
-- High Rish Recall - 
+- Balanced Accuracy Score - 0.64
+- Low Risk Precision - 1.00
+- Low Risk Recall - 0.57
+- High Risk Precision - 0.01
+- High Rish Recall - 0.72
 ### Balanced Random Forest Classifier
 
 <img width="457" alt="image" src="https://user-images.githubusercontent.com/92613639/154867196-17f1cf53-0757-4de9-83c0-947c808ce22b.png">
